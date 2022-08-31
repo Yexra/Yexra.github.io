@@ -1,0 +1,409 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.container {
+	width: 99%;
+}
+
+
+
+body{
+  margin: 0;
+  background: #dad8d8;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+
+
+
+header.header-area.hp{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 111;
+}
+
+.header-area {
+  
+	overflow: hidden;
+	background: rgb(235 228 222);
+	padding: 30px 0px;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	z-index: 10;
+	
+}
+
+
+.logo-area {
+	text-align: left;
+	padding-left: 80px;
+}
+
+.logo-area a {
+	color: #d2ae90;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Lato';
+  font-weight: bold;
+	
+}
+
+.menu-area {
+	text-align: right;
+	padding-right: 20px;
+}
+
+
+.menu-area ul li {
+	margin: 15px 3px 3px 30px;
+}
+.menu-area ul li a {
+	font-size: 28px;
+	text-decoration: none;
+	color: #4a4646;
+	font-family: 'Lato';
+	font-weight: bold;
+	text-transform: none;
+  
+}
+
+
+.menu-area ul li a:hover {
+	color: #000000;
+}
+
+
+
+.ring-index-area {
+	background: #dad8d8;
+	overflow: hidden;
+	padding: 0px 0px;
+
+}
+
+.ring-index-img {
+	text-align: center;
+}
+
+.ring-index-img  h2 {
+	
+	color: #000000;
+}
+
+h1{
+  color: #000000;
+}
+
+.ring-index-img p {
+	font-family: 'Lato';
+	font-size: 35px;
+	
+	color: #000000;
+}
+
+.ring-index-img img {
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.ring-index-btn {
+	position: relative;
+	min-height: 500px;
+
+}
+
+.btn-2 {
+	position: absolute;
+	top: 40%;
+	left: 3%
+}
+
+.ring-index-btn button {
+	margin: 10% 15px;
+	
+}
+
+.utforska:hover{
+  transform: scale(1.1);
+}
+
+.las-mer:hover{
+  transform: scale(1.1);
+}
+
+.ring-index-btn .utforska button {
+	padding: 10px 70px;
+	font-family: 'Lato';
+	font-size: 25px;
+	font-weight: 600;
+	color: #ffffff;
+	background: #d2ae90;
+	letter-spacing: 2px;
+	border: 4px solid #FFF;
+	border-radius: 45px;
+	
+} 
+
+.ring-index-btn .las-mer button {
+	padding: 10px 77px;
+	font-family: 'Lato';
+	font-size: 25px; 
+	font-weight: 600;
+	color:  #d2ae90;
+	background: #ffffff;
+	letter-spacing: 2px;
+	border: 4px solid  #d2ae90;
+	border-radius: 45px;
+	
+}
+
+
+
+
+.jobbar-area {
+	overflow: hidden;
+	background: #dad8d8;
+	
+	padding: 200px 0px;
+}
+
+.jobbar-text {
+	float: left;
+	padding-top: 100px;
+	
+}
+.jobbar-text h3 {
+  font-size: 46px;
+	font-family: 'Lato';
+	color: #000000;
+	letter-spacing: 1.5px;
+	text-align: center;
+	vertical-align: center;
+	padding: 20px 0px;
+}
+.jobbar-img {
+	overflow: hidden;
+	float: right;
+	text-align: right;
+}
+.jobbar-img img {
+	width: 100%;
+	height: auto;
+	text-align: right;
+	
+}
+
+
+
+.smeder {
+	background: #dad8d8;
+	overflow: hidden;
+	padding: 60px 0px;
+}
+.smeder-text h2{
+	font-family: 'Lato';
+	color: #000000;
+	letter-spacing: 1.5px;
+	text-align: center;
+	padding: 20px 0px 40px 0px;
+	font-size: 46px;
+  
+}
+
+.medarbetare {
+	text-align:center;
+}
+
+.medarbetare-img {
+	margin: 15px 0px;
+	padding: 0px 4px;
+}
+
+.medarbetare h3 {
+	color: #000000;
+	font-family: 'Lato';
+  font-size: 30px;
+  
+	
+}
+
+.medarbetare h5 {
+	color: #000000;
+	font-family: 'Lato';
+  font-size: 25px;
+
+}
+
+
+.hitta-hit {
+	overflow: hidden;
+	background: #dad8d8;
+	padding: 60px 0px;
+}
+
+
+
+
+.map-area {
+	overflow: hidden;
+	background: #dad8d8;
+	padding: 60px 0px;
+	text-align: center;
+}
+
+.map-area h3 {
+	padding: 30px 4px;
+	font-size: 25px;
+	font-family: 'Lato';
+	color: #000000;
+	line-height:  1.8em;
+	letter-spacing: 1.5px;
+}
+
+.map {
+	width: 100%;
+	margin: auto;
+}
+
+
+.footer-area {
+  background: #EBE4DE;
+	overflow: hidden;
+	padding: 60px 0px;
+	text-align: center;
+}
+
+.footer-area .f1 {
+	padding: 20px 4px;
+}
+
+.footer-area h3 {
+  font-size: 30px;
+  font-weight: bold;
+	font-family: 'Lato';
+	color: #000000;
+	line-height:  1.8em;
+	letter-spacing: 1.5px;
+}
+
+.footer-area p {
+  font-size: 20px;
+	font-family: 'Lato';
+	line-height:  1.8em;
+	letter-spacing: 1.5px;
+}
+
+.footer-area i {
+	color: #000;
+  font-size: 25px;
+	padding: 10px;
+	margin-top: 30px; 
+}
+
+
+
+
+@media all and (max-width: 1400px){
+.logo-area a{
+		font-size: 32px;
+	}
+	.header-area{
+		padding: 5px;
+	}
+	.menu-area ul li {
+		margin: 10px;
+	}
+	.menu-area ul li a{
+		font-size: 20px;
+	}
+	
+	.logo-area {
+		text-align: center; 
+		margin-bottom: 5px;		
+	}
+	.menu-area {
+		text-align: center;
+	}
+	
+	.menu-area ul li {
+		display: inline;
+    margin: 15px 3px 3px 30px;
+	}
+  
+  .btn-3{
+    
+  }
+
+}
+
+
+
+@media all and (max-width: 768px){
+	
+	.ring-index-btn {
+	position: relative;
+	min-height: 300px;
+
+}
+
+	.btn-2 {
+		position: absolute;
+		top: 5%;
+		left: 3%
+}
+
+.jobbar-text {
+	float: left;
+	padding-top: 30px;
+	
+}
+
+.map {
+	width: 100%;
+	padding: 5px 5px;
+}
+	
+}
+
+@media all and (max-width: 482px){
+	
+	.logo-area {
+		text-align: center; 
+		padding: 0px;
+	}
+	.menu-area {
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+	
+  .las-mer{
+    padding-left: 25px;
+  }
+  .utforska{
+    padding-left: 25px;
+  }
+
+	.menu-area ul li {
+		display: block;
+	}
+	
+}	

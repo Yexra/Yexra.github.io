@@ -1,0 +1,433 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
+.container {
+	width: 99%;
+}
+.bilder{
+	background-color: #dad8d8;
+}
+
+.bilder li {
+    list-style: none;
+    font-size: 30px;
+    line-height: 4;
+    
+}
+.bilder nav{
+	margin-top: 80px;
+}
+.coolt{
+  text-decoration: underline;
+  color: #000;
+}
+
+#Ringar{
+  display: block;
+  position: relative;
+  top: -6vh;
+
+}
+#orhangen{
+  display: block;
+  position: relative;
+  top: -6vh;
+}
+#Armband{
+  display: block;
+  position: relative;
+  top: -6vh;
+}
+#Halsband{
+  display: block;
+  position: relative;
+  top: -6vh;
+}
+#Föremål{
+  display: block;
+  position: relative;
+  top: -6vh;
+}
+#Örhängen{
+  display: block;
+  position: relative;
+  top: -6vh;
+}
+
+
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  background: #dad8d8;
+}
+
+.vdel{
+	width: 30%;
+	float: left;
+  
+}
+.hdel{
+	width: 70%;
+	float: right;
+}
+.bilder{
+	overflow: hidden;
+}
+
+
+.navbar_r ul {
+position: fixed;
+
+}
+.navbar_r a{
+  text-decoration: none;
+  color: #4a4646;
+}
+
+.navbar_r a:hover{
+  color:#000000;
+}
+
+header.Navbar{
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 111;
+
+}
+
+.Navbar {
+	overflow: visible;
+	background: rgb(235 228 222);
+	padding: 30px 0px;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	z-index: 10;
+	
+}
+
+
+
+.logo-area {
+	text-align: left;
+	padding-left: 25px;
+	
+}
+
+.logo-area a {
+	color: #d2ae90;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: 'Lato';
+  font-weight: bold;
+	
+}
+
+.menu-area {
+	text-align: right;
+	padding-right: 20px;
+}
+
+
+.menu-area ul li {
+	margin: 15px 3px 3px 30px
+  
+}
+.menu-area ul li a {
+	font-size: 28px;
+	text-decoration: none;
+	color: #4a4646;
+	font-family: 'Lato';
+	font-weight: bold;
+	text-transform: none;
+}
+
+.menu-area ul li a:hover {
+	color: #000000;
+}
+
+
+img:hover{cursor: pointer; opacity: 0.7; transition: transform .2s ease-in;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 998; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+  font-size: 40px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  opacity: 1;
+  color: #BBB;
+  font-size: 100px;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.close:hover,
+.close:focus {
+  opacity: 1;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+/** active navigation **/
+.navbar_r.scroll a.active{
+  color:#000;
+  border-bottom: 2px solid #000;
+}
+
+
+
+.allabilder {
+	background: #dad8d8;
+	overflow: hidden;
+	padding: 60px 0px;
+  
+}
+.ringtext h2{
+	font-size: 46px;
+	font-family: 'Lato';
+	color: #000000;
+	letter-spacing: 1.5px;
+	text-align: center;
+	padding: 20px 0px 40px 0px
+	
+}
+
+.ringposition {
+	text-align:center;
+	overflow: hidden;
+}
+
+.ring-bild {
+	margin: 15px 0px;
+	padding: 0px 0px;
+}
+
+
+
+footer.footer_{
+  z-index: 997;
+}
+
+.footer_ {
+	overflow: hidden;
+  background: #EBE4DE;
+	padding: 60px 0px;
+	text-align: center;
+  position: relative;
+}
+
+.footer_ .f1 {
+	padding: 20px 4px;
+}
+
+.footer_ h3 {
+	font-size: 30px;
+	font-family: 'Lato';
+	color: #000000;
+	line-height:  1.8em;
+	letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+.footer_ p {
+	font-size: 20px;
+	font-family: 'Lato';
+	line-height:  1.8em;
+	letter-spacing: 1.5px;
+}
+
+.footer_ i {
+	color: #000;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 30px; 
+}
+
+
+@media all and (max-width: 1633px){
+  .navbar_r ul li{
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 1400px){
+.logo-area a{
+		font-size: 32px;
+	}
+	.Navbar{
+		padding: 5px;
+	}
+	.menu-area ul li {
+		margin: 10px;
+	}
+	.menu-area ul li a{
+		font-size: 20px;
+	}
+
+	.logo-area {
+		text-align: center; 
+		margin-bottom: 5px;		
+    
+	}
+	.menu-area {
+		text-align: center;
+	}
+	
+	.menu-area ul li {
+		display: inline;
+    margin: 15px 3px 3px 30px;
+	}
+
+
+}
+
+
+
+@media all and (max-width: 768px){
+	.logo-area a{
+		font-size: 32px;
+	}
+	.Navbar{
+		padding: 5px;
+	}
+	.menu-area ul li {
+		margin: 5px;
+	}
+	.menu-area ul li a{
+		font-size: 16px;
+	}
+	.bilder li {
+		list-style: none;
+		font-size: 16px;
+		line-height: 2;
+    font-weight: bold;
+	}
+  .modal-content {
+    width: 100%;
+  }
+	.vdel{
+		display: none;
+	}
+	.hdel{
+		width: 100%;
+	}
+	
+	.logo-area {
+		text-align: center; 
+		margin-bottom: 10px;		
+	}
+	.menu-area {
+		text-align: center;
+	}
+	
+	.menu-area ul li {
+		display: inline;
+	}
+	
+
+	
+	
+}
+
+@media all and (max-width: 434px){
+	
+	
+	
+	.logo-area {
+		text-align: center; 
+		padding: 0;
+		
+		
+	}
+	.menu-area {
+		text-align: center;
+		float: none;
+		width: 100%;
+		
+		
+	}
+	
+	.menu-area ul li {
+		
+		display: block;
+	}
+	
+	
+	
+
+	
+	
+}	
